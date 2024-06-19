@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAssessment.Console", "ClientAssessment.Console\ClientAssessment.Console.csproj", "{D4EC2337-8757-41FE-A0D2-F2EB96C2D23A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAssessment.Console", "ClientAssessment.Console\ClientAssessment.Console.csproj", "{D4EC2337-8757-41FE-A0D2-F2EB96C2D23A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{6941F203-AF52-4919-A3AE-FF023CEC2721}"
 EndProject
@@ -15,7 +15,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAssessment.Core", "Cl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{01FBEA41-30F1-40DB-B849-D57839977645}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientAssessment.Infrastracture", "ClientAssessment.Infrastracture\ClientAssessment.Infrastracture.csproj", "{8161F81A-B2A3-42BF-81A8-48F1E8C201AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientAssessment.Infrastracture", "ClientAssessment.Infrastracture\ClientAssessment.Infrastracture.csproj", "{8161F81A-B2A3-42BF-81A8-48F1E8C201AD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{2245D9A1-31ED-4F3C-8004-086393E03FF7}"
+	ProjectSection(SolutionItems) = preProject
+		database.sql = database.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
